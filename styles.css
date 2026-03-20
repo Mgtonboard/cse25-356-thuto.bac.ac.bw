@@ -1,16 +1,65 @@
-*{ 
-    margin 0;
-    padding: 0;
-
-}
-
-.main{
-    width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0,0.5,)50%,rgba(0,0,0,0,0.5,)50%,),url(1.jpg)
-    background-position: center;
+body {
+body {
+    background-image: url('path/to/your-image.jpg');
     background-size: cover;
-    height: 10;
- 
-  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: keeps image fixed while scrolling */
 }
+font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+
+color: #333;
+
+background-color: #f3e4e4;
+
+margin: 0;
+
+padding: 0;
+
+line-height: 1.6;
+
+}
+
+2. Style the Header
+
+Add styles for the <header> and navigation links:
+
+header {
+
+background-color: #000000;
+
+color: white;#4CAF50;
+
+padding: 20px;
+
+text-align: center;
+
+}
+
+
+header h1 {
+
+margin: 0;
+
+}
+
+
+nav a {
+
+color: rgb(25, 21, 21);
+
+text-decoration: none;
+
+margin: 0 15px;
+
+}
+
+
+nav a:hover {
+
+text-decoration: underline;
+
+}
+  
+
   
