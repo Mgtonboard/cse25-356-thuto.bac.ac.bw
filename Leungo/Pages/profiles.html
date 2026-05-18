@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generals | Profiles</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Project styles (relative to Pages/) -->
+    <link rel="stylesheet" href="../styles.css">
+    <meta name="description" content="Profiles of historical generals">
+    <!-- Page doc: follows project naming and structure conventions used in index.html -->
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="site-header">
+        <nav class="navbar">
+            <div class="nav-inner">
+                <div class="logo">
+                    <div class="logo-circle"></div>
+                    <div>
+                        <span class="brand">WAR LEGENDS</span>
+                        <div class="tag">The Generals Who Shaped History</div>
+                    </div>
+                </div>
+                <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu"><span></span></button>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a class="active" href="profiles.html">Profiles</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <section class="profiles-header">
+            <div class="container">
+                <h2>PROFILES</h2>
+                <p class="muted">Explore detailed information about the world's most influential war generals.</p>
+            </div>
+        </section>
+
+        <section class="profiles-controls">
+            <div class="search">
+                <label class="search-wrap">
+                    <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="11" cy="11" r="6" stroke="currentColor" stroke-width="1.5" fill="none"></circle></svg>
+                    <input type="search" placeholder="Search generals, e.g. 'Napoleon'" aria-label="Search generals">
+                </label>
+            </div>
+            <select aria-label="Filter by nation">
+                <option>All Nations</option>
+                <option>United Kingdom</option>
+                <option>United States</option>
+                <option>Germany</option>
+                <option>France</option>
+                <option>Japan</option>
+            </select>
+            <select aria-label="Sort">
+                <option>Sort by</option>
+                <option>Name A–Z</option>
+                <option>Era</option>
+            </select>
+        </section>
+
+        <section class="profile-list">
+            <div class="profile-row">
+                <img src="../images/Hitler.jpg.jpeg" alt="Adolf Hitler">
+                <div class="profile-meta">
+                    <h4>ADOLF HITLER</h4>
+                    <div class="meta">Nazi Germany · 1889 – 1945</div>
+                    <p class="text-muted">Leader of Nazi Germany and a central figure of World War II. Known for authoritarian rule and expansionist policies.</p>
+                </div>
+                <div class="profile-actions">
+                    <a class="btn-outline view-profile" href="profile.html">VIEW PROFILE</a>
+                </div>
+            </div>
+
+            <div class="profile-row">
+                <img src="../images/Winston_Churchill.jpg.jpeg" alt="Winston Churchill">
+                <div class="profile-meta">
+                    <h4>WINSTON CHURCHILL</h4>
+                    <div class="meta">United Kingdom · 1874 – 1965</div>
+                    <p class="text-muted">British Prime Minister who led the United Kingdom through World War II.</p>
+                </div>
+                <div class="profile-actions">
+                    <a class="btn-outline view-profile" href="profile.html">VIEW PROFILE</a>
+                </div>
+            </div>
+
+            <div class="profile-row">
+                <img src="../images/Napoleon.jpg.jpeg" alt="Napoleon">
+                <div class="profile-meta">
+                    <h4>NAPOLEON BONAPARTE</h4>
+                    <div class="meta">France · 1769 – 1821</div>
+                    <p class="text-muted">French military leader who rose to prominence during the French Revolution.</p>
+                </div>
+                <div class="profile-actions">
+                    <a class="btn-outline view-profile" href="profile.html">VIEW PROFILE</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer: reuse main site's footer styles -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-left">
+                <p>&copy; 2026 Generals. All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <div class="social">
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M22 5.92c-.66.29-1.37.48-2.12.57.76-.46 1.34-1.18 1.61-2.04-.71.42-1.5.73-2.34.9C18.5 4.2 17.42 3.7 16.26 3.7c-1.84 0-3.33 1.5-3.33 3.35 0 .26.03.51.09.75-2.77-.14-5.23-1.48-6.88-3.52-.29.5-.45 1.08-.45 1.7 0 1.17.6 2.2 1.5 2.8-.56-.02-1.09-.17-1.55-.43v.04c0 1.63 1.16 2.99 2.7 3.3-.28.08-.57.12-.87.12-.21 0-.41-.02-.61-.06.42 1.3 1.63 2.24 3.07 2.27-1.12.87-2.54 1.39-4.08 1.39-.27 0-.54-.02-.8-.05 1.56 1.02 3.42 1.62 5.42 1.62 6.5 0 10.06-5.4 10.06-10.08v-.46c.69-.5 1.28-1.12 1.75-1.83-.64.28-1.32.48-2.03.57z"/></svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.99 3.66 9.12 8.44 9.88v-6.99H7.9v-2.89h2.54V9.41c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.78l-.44 2.89h-2.34V22C18.34 21.12 22 16.99 22 12z"/></svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm5 6.5A4.5 4.5 0 1 1 7.5 13 4.5 4.5 0 0 1 12 8.5zm6.5-.5a1.5 1.5 0 1 1-1.5-1.5 1.5 1.5 0 0 1 1.5 1.5zM12 9a3 3 0 1 0 3 3 3 3 0 0 0-3-3z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Project JS -->
+    <script src="../javascript/main.js"></script>
+</body>
+</html>
