@@ -440,7 +440,9 @@ img {
 
 .contact-card h1,
 .contact-card h2,
-.contact-card h3 {
+.contact-card h3,
+.contact-card h4,
+.contact-card h5 {
     color: var(--card-bg);
     margin-bottom: 10px;
 }
@@ -619,3 +621,4 @@ img {
         text-align: center;
     }
 }
+
