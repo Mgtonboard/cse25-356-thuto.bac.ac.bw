@@ -41,17 +41,17 @@
     </section>
 
     <section class="contact-wrap">
-        <form class="contact-card" action="#" method="post">
+        <form class="contact-card" action="acknowledgements.html" method="get">
             <h2>Submit Feedback</h2>
 
             <label for="feedback-name">Your Name</label>
-            <input id="feedback-name" name="name" placeholder="Full name">
+            <input id="feedback-name" name="name" type="text" placeholder="Full name" required>
 
             <label for="feedback-email">Your Email</label>
-            <input id="feedback-email" name="email" type="email" placeholder="Enter your email">
+            <input id="feedback-email" name="email" type="email" placeholder="Enter your email" required>
 
             <label for="feedback-message">Your Feedback</label>
-            <textarea id="feedback-message" name="feedback" rows="5" placeholder="Write your feedback"></textarea>
+            <textarea id="feedback-message" name="feedback" rows="5" placeholder="Write your feedback" required></textarea>
 
             <label>Rate our site</label>
             <section class="rating" aria-label="Site rating">
@@ -62,13 +62,15 @@
                 <input type="radio" id="r5" name="rating" value="5"><label for="r5">★</label>
             </section>
 
-            <button class="submit-btn" type="submit">SUBMIT FEEDBACK</button>
+            <button type="submit" class="submit-btn">
+                SUBMIT FEEDBACK
+            </button>
         </form>
 
         <article class="contact-card">
             <h2>Why Feedback Matters</h2>
             <p>Your suggestions help improve accuracy, layout, and future profiles.</p>
-            <img src="../Dithombe/Enchoen27n3200.jpg" alt="Historical image">
+            <img src="../Dithombe/Enchoen27n3200.jpg" alt="Japanese garden at Enchoen, Tottori Prefecture">
         </article>
     </section>
 </main>
@@ -78,12 +80,13 @@
         <p>&copy; 2026 Generals. All rights reserved.</p>
 
         <nav class="social" aria-label="Social media links">
-            <a href="#" class="social-link" aria-label="Twitter">Twitter</a>
-            <a href="#" class="social-link" aria-label="Facebook">Facebook</a>
-            <a href="#" class="social-link" aria-label="Instagram">Instagram</a>
+            <a href="#" class="social-link" aria-label="Twitter" aria-disabled="true">Twitter</a>
+            <a href="#" class="social-link" aria-label="Facebook" aria-disabled="true">Facebook</a>
+            <a href="#" class="social-link" aria-label="Instagram" aria-disabled="true">Instagram</a>
         </nav>
     </section>
 </footer>
 <script src="../javascript/main.js"></script>
 </body>
 </html>
+
