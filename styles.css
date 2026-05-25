@@ -140,7 +140,7 @@ img {
 .landing-banner {
     background:
         linear-gradient(rgba(0,0,0,0.58), rgba(0,0,0,0.58)),
-        url('images/wars by alex.jpg.jpeg') center/cover;
+        url('Dithombe/wars by alex.jpg.jpeg') center/cover;
     min-height: 430px;
     display: flex;
     align-items: center;
