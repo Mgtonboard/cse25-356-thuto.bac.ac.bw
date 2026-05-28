@@ -54,6 +54,11 @@ img {
     align-items: center;
     gap: 12px;
     text-decoration: none;
+    img {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+    }
 }
 
 .logo-circle {
