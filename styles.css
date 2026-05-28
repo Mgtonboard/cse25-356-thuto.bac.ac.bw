@@ -529,16 +529,6 @@ img {
     align-items: center;
 }
 
-.social {
-    display: flex;
-    gap: 10px;
-}
-
-.social-link {
-    color: var(--card-bg);
-    text-decoration: none;
-    font-size: 14px;
-}
 
 /* Responsive */
 @media (max-width: 992px) {
